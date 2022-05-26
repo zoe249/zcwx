@@ -1,0 +1,208 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "工作区"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/authoriz/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/wxapply/list",
+			"style": {
+				"navigationBarTitleText": "维修申请单列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/wxapply/todoList",
+			"style": {
+				"navigationBarTitleText": "待办维修申请单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/wxapply/add",
+			"style": {
+				"navigationBarTitleText": "新增维修申请"
+			}
+		},
+		{
+			"path": "pages/wxapply/multiGoods",
+			"style": {
+				"navigationBarTitleText": "选择商品"
+			}
+		},
+		{
+			"path": "pages/wxapply/singleGood",
+			"style": {
+				"navigationBarTitleText": "新增维修申请"
+			}
+		},
+		{
+			"path": "pages/wxapply/detail"
+		},
+		{
+			"path": "pages/ysbudget/list",
+			"style": {
+				"navigationBarTitleText": "预算申请单列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/ysbudget/todoList",
+			"style": {
+				"navigationBarTitleText": "待办预算申请单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/ysbudget/detail",
+			"style": {
+				"navigationBarTitleText": "预算申请详情"
+			}
+		},
+		{
+			"path": "pages/wxconfirm/list",
+			"style": {
+				"navigationBarTitleText": "维修确认单列表",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/wxconfirm/contract",
+			"style": {
+				"navigationBarTitleText": "选择合同"
+			}
+		},{
+			"path": "pages/wxconfirm/addParts",
+			"style": {
+				"navigationBarTitleText": "添加配件"
+			}
+		},
+		{
+			"path": "pages/wxconfirm/todoList",
+			"style": {
+				"navigationBarTitleText": "待办维修确认单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/wxconfirm/detail",
+			"style": {
+				"navigationBarTitleText": "维修确认详情"
+			}
+		},
+		{
+			"path": "pages/wxconfirm/acce",
+			"style": {
+				"navigationBarTitleText": "配件信息"
+			}
+		},
+		{
+			"path": "pages/wbreg/list",
+			"style": {
+				"navigationBarTitleText": "维保登记单列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/wbreg/todoList",
+			"style": {
+				"navigationBarTitleText": "待办维保登记单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/wbreg/detail",
+			"style": {
+				"navigationBarTitleText": "维保登记详情"
+			}
+		},{
+			"path": "pages/wbreg/addParts",
+			"style": {
+				"navigationBarTitleText": "添加配件"
+			}
+		},
+		{
+			"path": "pages/wbreg/acce",
+			"style": {
+				"navigationBarTitleText": "维保登记单设备详情"
+			}
+		},{
+			"path": "pages/wbreg/add",
+			"style": {
+				"navigationBarTitleText": "新增维保登记"
+			}
+		},{
+			"path": "pages/wbreg/contract",
+			"style": {
+				"navigationBarTitleText": "选择合同"
+			}
+		},
+		{
+			"path": "pages/common/rate",
+			"style": {
+				"navigationBarTitleText": "评价"
+			}
+		},
+		{
+			"path": "pages/common/audit",
+			"style": {
+				"navigationBarTitleText": "审核"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "测试界面",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#70A4F8",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-xz.png",
+				"text": "工作区"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/images/mine.png",
+				"selectedIconPath": "static/images/mine-xz.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#70A4F8",
+		"backgroundColor": "#70A4F8"
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}
